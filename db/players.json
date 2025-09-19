@@ -1,0 +1,26 @@
+[
+	{
+		"age": 0,
+		"cultures": [],
+		"defensive_skill": 0,
+		"forename": "Test",
+		"id": 1,
+		"nationalities": [],
+		"offensive_skill": 0,
+		"positions": [
+			{
+				"abbreviation": "C",
+				"proficiency": 100
+			},
+			{
+				"abbreviation": "LW",
+				"proficiency": 75
+			},
+			{
+				"abbreviation": "RW",
+				"proficiency": 55
+			}
+		],
+		"surname": "Player"
+	}
+]

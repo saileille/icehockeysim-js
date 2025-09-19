@@ -1,0 +1,36 @@
+/*
+Overrides
+*/
+
+div {
+	text-shadow: none;
+}
+
+li {
+	text-shadow: none;
+}
+
+table {
+	text-shadow: none;
+}
+
+/*
+My stuff
+*/
+
+.standardNavbar {
+	text-align: center;
+	font-size: 3.9vw;
+}
+
+.standardNavbarItem {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 1000px;
+}
+/*
+.standardNavbarItemSelected {
+	color: white;
+	background-color: black;
+}
+*/

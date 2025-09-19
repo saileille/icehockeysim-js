@@ -1,0 +1,19 @@
+[
+	{
+		"colours": [
+			"c77885",
+			"2f1c60"
+		],
+		"fullname": "Testing Hockey League",
+		"id": 1,
+		"matches_per_team": 20,
+		"teams": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6
+		]
+	}
+]

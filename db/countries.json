@@ -1,0 +1,14 @@
+[
+	{
+		"abbreviation": "FIN",
+		"cultures": [
+			{
+				"culture": 1,
+				"frequency": 1
+			}
+		],
+		"icehockey_culture": 1,
+		"id": 1,
+		"name": "Finland"
+	}
+]

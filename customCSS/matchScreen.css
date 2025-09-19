@@ -1,0 +1,115 @@
+/*
+everything you will ever need: http://demos.jquerymobile.com/1.4.5/
+*/
+
+.matchScoreTable, .matchBoxScoreTable, .matchLineUpTable, .matchTeamStatTable, .matchPlayerStatTable {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+.matchScoreTable, .matchLineUpTable, .matchTeamStatTable {
+	width: 100%;
+}
+
+.matchBoxScoreTable {
+	font-size: 4.5vw;
+}
+
+td.matchScoreTable {
+	margin: 0px;
+}
+
+.matchTotalScore, .matchTeamStatTable {
+	font-size: 5vw;
+}
+
+.matchPeriodScore {
+	font-size: 3vw;
+}
+
+.matchMainScore {
+	text-align: center;
+}
+
+.matchTeamName {
+	font-size: 4vw;
+	width: 33%;
+}
+
+.matchHomeTeamName {
+	text-align: left;
+}
+
+.matchAwayTeamName {
+	text-align: right;
+}
+
+.matchBoxScorePeriod {
+	padding-top: 2vw;
+}
+
+.matchLineUpNewLine, .matchLineUpTeamName {
+	margin-top: 3vw;
+	font-size: 5vw;
+	text-align: center;
+}
+
+.matchLineUp3Wide, .matchLineUp2Wide {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.matchLineUpGK {
+	text-align: center;
+}
+
+.matchLineUpGKs {
+	text-align: left;
+	width: 50%;
+}
+
+.matchLineUpTable {
+	font-size: 3.5vw;
+}
+
+.matchLineUp3Wide {
+	width: 33%;
+}
+
+.matchLineUp2Wide {
+	width: 50%;
+}
+
+.matchTeamStatCategory {
+	text-align: center;
+	width: 50%;
+}
+
+.matchTeamStat {
+	width: 25%;
+}
+
+.leftAlign {
+	text-align: left;
+}
+
+.rightAlign {
+	text-align: right;
+}
+
+.matchPlayerStatTable {
+	font-size: 3.9vw;
+}
+
+.matchPlayerStatTableName {
+	text-align: left;
+}
+
+.matchPlayerStatTableCell {
+	text-align: center;
+}
+
+.matchPlayerStatTeam {
+	padding-top: 3vw;
+	font-size: 4vw;
+}

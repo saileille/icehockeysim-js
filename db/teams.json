@@ -1,0 +1,134 @@
+[
+	{
+		"abbreviation": "HEL",
+		"arena": 0,
+		"colours": {
+			"away": [
+				"bbd371",
+				"2da830"
+			],
+			"general": [
+				"8e661d",
+				"1a5860"
+			],
+			"home": [
+				"b7d299",
+				"00dc8f"
+			]
+		},
+		"fullname": "Helsinki",
+		"id": 1,
+		"players": [],
+		"stature": 0
+	},
+	{
+		"abbreviation": "STO",
+		"arena": 0,
+		"colours": {
+			"away": [
+				"bbd371",
+				"2da830"
+			],
+			"general": [
+				"8e661d",
+				"1a5860"
+			],
+			"home": [
+				"b7d299",
+				"00dc8f"
+			]
+		},
+		"fullname": "Stockholm",
+		"id": 2,
+		"players": [],
+		"stature": 0
+	},
+	{
+		"abbreviation": "BRL",
+		"arena": 0,
+		"colours": {
+			"away": [
+				"bbd371",
+				"2da830"
+			],
+			"general": [
+				"8e661d",
+				"1a5860"
+			],
+			"home": [
+				"b7d299",
+				"00dc8f"
+			]
+		},
+		"fullname": "Berlin",
+		"id": 3,
+		"players": [],
+		"stature": 0
+	},
+	{
+		"abbreviation": "TLN",
+		"arena": 0,
+		"colours": {
+			"away": [
+				"bbd371",
+				"2da830"
+			],
+			"general": [
+				"8e661d",
+				"1a5860"
+			],
+			"home": [
+				"b7d299",
+				"00dc8f"
+			]
+		},
+		"fullname": "Tallinn",
+		"id": 4,
+		"players": [],
+		"stature": 0
+	},
+	{
+		"abbreviation": "RGA",
+		"arena": 0,
+		"colours": {
+			"away": [
+				"bbd371",
+				"2da830"
+			],
+			"general": [
+				"8e661d",
+				"1a5860"
+			],
+			"home": [
+				"b7d299",
+				"00dc8f"
+			]
+		},
+		"fullname": "Riga",
+		"id": 5,
+		"players": [],
+		"stature": 0
+	},
+	{
+		"abbreviation": "LDN",
+		"arena": 0,
+		"colours": {
+			"away": [
+				"bbd371",
+				"2da830"
+			],
+			"general": [
+				"8e661d",
+				"1a5860"
+			],
+			"home": [
+				"b7d299",
+				"00dc8f"
+			]
+		},
+		"fullname": "London",
+		"id": 6,
+		"players": [],
+		"stature": 0
+	}
+]
