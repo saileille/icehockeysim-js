@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script
+		src="https://code.jquery.com/jquery-2.1.4.js"
+		integrity="sha256-siFczlgw4jULnUICcdm9gjQPZkw/YPDqhQ9+nAOScE4="
+		crossorigin="anonymous">
+	</script>
+	<script type="text/javascript" src="customJS/classes.js"></script>
+	<script type="text/javascript" src="customJS/ObjectList.js"></script>
+	<script type="text/javascript" src="customJS/ObjectDict.js"></script>
+	<script type="text/javascript" src="customJS/loadData.js"></script>
+	<script type="text/javascript" src="customJS/generalPurpose.js"></script>
+	<script type="text/javascript" src="customJS/matchScheduler2.js"></script>
+	<!--script>
+		var someArray = [1, 2, 3, 4, 5, 6];
+		console.log(someArray);
+		console.log(someArray.indexOf(1));
+	</script-->
+</head>
+<body>
+	<div id="scheduleStuff"></div>
+	<script>
+		///*
+		var schedules = [
+			{
+				"teams": [
+					"Blues"
+					,"HIFK"
+					,"HPK"
+					,"Ilves"
+					,"Jokerit"
+					,"JYP"
+					,"Kärpät"
+					,"Lukko"
+					,"Pelicans"
+					,"SaiPa"
+					,"Tappara"
+					,"TPS"
+					,"Ässät"
+				]
+				,"matchAmount": 56
+				,"extraHome": []
+				,"subSchedules": [
+					{
+						"teams": [
+							"Blues"
+							,"HIFK"
+							,"Jokerit"
+							,"TPS"
+						]
+						,"matchAmount": 20
+						,"extraHome": []
+						,"subSchedules": [
+							{
+								"teams": [
+									"Blues"
+									,"TPS"
+								]
+								,"matchAmount": 8
+								,"extraHome": []
+							},{
+								"teams": [
+									"HIFK"
+									,"Jokerit"
+								]
+								,"matchAmount": 8
+								,"extraHome": []
+							}
+						]
+					},{
+						"teams": [
+							"HPK"
+							,"Ilves"
+							,"Pelicans"
+							,"Tappara"
+						]
+						,"matchAmount": 20
+						,"extraHome": []
+						,"subSchedules": [
+							{
+								"teams": [
+									"HPK"
+									,"Pelicans"
+								]
+								,"matchAmount": 8
+								,"extraHome": []
+							},{
+								"teams": [
+									"Ilves"
+									,"Tappara"
+								]
+								,"matchAmount": 8
+								,"extraHome": []
+							}
+						]
+					},{
+						"teams": [
+							"JYP"
+							,"Kärpät"
+							,"Lukko"
+							,"SaiPa"
+							,"Ässät"
+						]
+						,"matchAmount": 24
+						,"extraHome": []
+					}
+				]
+			}
+		];
+		
+		var matches = iterateSchedules(schedules);
+		matches = structuredScheduling(matches);
+		
+		var scheduleDisplayer = "";
+		var match;
+		for (var i in matches) {
+			if (i > 0) {
+				scheduleDisplayer += "<br><br>";
+			}
+			scheduleDisplayer += "Day " + (parseInt(i) + 1);
+			
+			for (var i2 in matches[i]) {
+				match = matches[i][i2];
+				scheduleDisplayer += "<br>" + match.home + " - " + match.away;
+			}
+		}
+		
+		document.getElementById("scheduleStuff").innerHTML = scheduleDisplayer;
+		//*/
+	</script>
+</body>
+</html>
